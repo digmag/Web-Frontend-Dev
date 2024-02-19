@@ -1,12 +1,11 @@
 .autorMenu{
-    width: 50vw;
-    height: 80vh;
+    width: 40vw;
+    height: 70vh;
     background-color: white;
     border: 2px solid #0072BC;
     border-radius: 20px;
-    display: flex;
-    margin-left: 25vw;
-    display: flex;
+    display: block;
+    margin-left: 30%;
     justify-content: center;
 }
 
@@ -15,5 +14,80 @@
     font-size: xxx-large;
     font-family: Arial;
     font-weight: bold;
-    margin-top: 3vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.toLoginText{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: x-large;
+}
+
+.loginInputs{
+    display: block;
+    width: 85%;
+    height: 15vh;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.inp{
+    width: 100%;
+    height: 30%;
+    border: 1px solid #949695;
+    border-radius: 10px;
+    font-size: medium;
+    color: #8C9195;
+    margin-top: 3%;
+}
+
+.loginButton{
+    width: 85%;
+    height:25vh;
+    margin-left: 7%;
+}
+
+.buttonMenuAutorize{
+    width: 100%;
+    height: 18%;
+    border: 1px solid #0072BC;
+    background-color: #188DFE;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+.forgetPassword{
+    display: flex;
+    justify-content: center;
+    color: #8C9195;
+    margin-top: 1%;
+}
+
+.regButton{
+    width: 85%;
+    height:10vh;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registrButton{
+    width: 40%;
+    height: 40%;
+    background-color: transparent;
+    border: 2px solid #188DFE;
+    color: #188DFE;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 10%;
+}
+
+.regText{
+    color: #6B737A;
+    font-size: medium;
 }
