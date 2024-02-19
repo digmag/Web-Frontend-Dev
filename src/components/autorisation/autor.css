@@ -1,0 +1,19 @@
+.autorMenu{
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    border: 2px solid #0072BC;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: center;
+}
+
+.titleTSU{
+    color: #0072BC;
+    font-size: xxx-large;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 3vh;
+}
