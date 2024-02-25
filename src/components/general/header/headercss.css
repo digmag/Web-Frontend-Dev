@@ -1,0 +1,40 @@
+.mainHeader{
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoTiny{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    color: #0072BC;
+    font-size: xx-large;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    left: 4vw;
+}
+
+.imageTSU{
+    height: 6vh;
+}
+
+.custom-icon{
+    color: #188DFE;
+    font-size: xx-large;
+    margin-right: 2vw;
+}
+
+.custom-icon:hover{
+    color: #0072BC;
+}
+
+.headerButtons{
+    position: absolute;
+    right: 0;
+}

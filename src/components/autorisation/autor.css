@@ -5,7 +5,9 @@
     border: 2px solid #0072BC;
     border-radius: 20px;
     display: block;
-    margin-left: 30%;
+    position: absolute;
+    left: 30vw;
+    top: 10vh;
     justify-content: center;
 }
 
@@ -63,6 +65,10 @@
     border-radius: 10px;
 }
 
+.buttonMenuAutorize:hover{
+    background-color: #1864ff;
+}
+
 .forgetPassword{
     display: flex;
     justify-content: center;
@@ -88,6 +94,11 @@
     border-radius: 10px;
     font-size: medium;
     margin-left: 10%;
+}
+
+.registrButton:hover{
+    border: 2px solid #1864ff;
+    color: #1864ff;
 }
 
 .regText{
