@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../autorisation/autor.css"
-import Logo from "../../../autorisation/comp/logo.js";
+import "../../autorisation/autor.css"
+import Logo from '../../autorisation/comp/logo';
 
 class MainMenuRegistr extends React.Component{
     render(){
