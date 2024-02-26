@@ -1,0 +1,19 @@
+import React from 'react';
+import { TextField, Button, Typography } from '@mui/material';
+
+const Registration = () => {
+    return (
+        <div>
+            <h1>TSU.Keys</h1>
+            <Typography variant="body1" textAlign='center'>
+                Зарегистрируйтесь, чтобы продолжить
+            </Typography>
+            <TextField fullWidth={true} margin='normal' InputProps={{ sx: {borderRadius: '10px', height: '38px',}}} id="outlined-basic" label="ФИО" variant="outlined" placeholder='Введите ваше ФИО'/>
+            <TextField fullWidth={true} margin='normal' InputProps={{ sx: {borderRadius: '10px', height: '38px',}}} id="outlined-basic" label="Логин" variant="outlined" placeholder='Введите логин'/>
+            <TextField fullWidth={true} margin='normal' InputProps={{ sx: {borderRadius: '10px', height: '38px', fontSize: '20px',}}} id="outlined-basic" label="Пароль" variant="outlined" placeholder='Введите пароль'/>
+            <Button sx={{marginTop: 20, borderRadius: '10px', width: '100%'}} variant="contained">Зарегистрироваться</Button>
+        </div>
+    );
+};
+
+export default Registration;
