@@ -1,7 +1,6 @@
 import React from "react";
 import '.././profile.css'
 import MainHeader from "../../general/header/mainHeader";
-import BackgroundGrey from "../../general/backgroundGrey";
 
 class MainProfile extends React.Component{
     render(){

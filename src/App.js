@@ -7,7 +7,7 @@ import MainProfile from "./components/profile/comp/mainProfile";
 function App() {
   return (
     <div className="App">
-        <MainProfile />
+        <MainMenuAutor />
     </div>
   );
 }
