@@ -30,10 +30,6 @@
     margin-right: 2vw;
 }
 
-.hoverIcon:hover * {
-    fill: #005db0;
-}
-
 .custom-icon:hover{
     color: #0072BC;
 }
@@ -41,8 +37,4 @@
 .headerButtons{
     position: absolute;
     right: 0;
-}
-
-.svg:hover{
-    fill: black;
 }
