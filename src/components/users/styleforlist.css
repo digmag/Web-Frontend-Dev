@@ -53,6 +53,11 @@
     margin-left: 10%;
 }
 
+.findButtonChild:hover {
+    background-color: #127fe4;
+    border-color: #127fe4;
+}
+
 .userList {
     display: flex;
     flex-direction: column;
