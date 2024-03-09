@@ -1,0 +1,44 @@
+.deaneryText {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: x-large;
+}
+
+.inputDeanery {
+    width: 80%;
+    height: 40vh;
+    margin-left: 9%;
+}
+
+.inputDea {
+    width: 100%;
+    height: 4vh;
+    border-radius: 7px;
+    border: 1px solid #949695;
+    font-size: large;
+    margin-top: 3%;
+}
+
+.deaneryButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.dB {
+    background-color: #188DFE;
+    width: 80%;
+    height: 5vh;
+    color: white;
+    border: 1px solid #0072BC;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.dB:hover {
+    background-color: #0072BC;
+    border: 1px solid #7e807e;
+}

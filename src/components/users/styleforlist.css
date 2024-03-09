@@ -33,7 +33,7 @@
 
 .findButton {
     position: absolute;
-    top: 70px;
+    top: 75px;
     width: 400px;
     height: 15vh;
     margin-left: 22%;
@@ -97,7 +97,7 @@
 
 .sort {
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 70%;
     display: flex;
     flex-direction: column;

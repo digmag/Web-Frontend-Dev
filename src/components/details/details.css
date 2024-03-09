@@ -1,0 +1,75 @@
+.greyBack{
+    width: 100vw;
+    height: 92vh;
+    background-color: #DBDBDB;
+}
+
+.detailsWin{
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    left: 30vw;
+    margin-top: 4vh;
+    border: 2px solid #949695;
+    border-radius: 9px;
+    display: block;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.detailsText{
+    margin-top: 2vh;
+    font-size: x-large;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+.detailsInfo{
+    display: block;
+    margin-top: 4vh;
+}
+
+.info{
+    color: #6B737A;
+    font-size: x-large;
+    margin: 20px;
+}
+
+.dobleButton{
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+}
+
+.decline{
+    margin-right: 2vw;
+    color: white;
+    background-color: #ff1900;
+    width: 100%;
+    border: 1px solid rgb(211, 12, 12);
+    font-family: Arial;
+    font-size: large;
+    height: 5vh;
+    border-radius: 7px;
+}
+
+.decline:hover{
+    background-color: #db1905;
+}
+
+.accept{
+    color: white;
+    background-color: #33cc4d;
+    width: 100%;
+    border: 1px solid #53bb32;
+    font-family: Arial;
+    font-size: large;
+    height: 5vh;
+    border-radius: 7px;
+}
+
+.accept:hover{
+    background-color: #5ebb32;
+}
