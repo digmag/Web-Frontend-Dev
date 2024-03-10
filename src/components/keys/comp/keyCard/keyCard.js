@@ -23,12 +23,13 @@ class KeyCard extends React.Component {
     }
 
     render() {
+        const { officeNumber, userViewDTO } = this.props;
         return (
             <div className="keyCard" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
                 <img className="keyImage" src={keyLogo} alt="" />
                 <span className="keyCard2">
-                    <AudienceNumber />
-                    <KeyStatus />
+                    <AudienceNumber officeNumber={officeNumber} />
+                    <KeyStatus userViewDTO={userViewDTO} />
                 </span>
                 {this.state.isHovered && <img className="deleteImage" src={deleteLogo} alt="" />}
             </div>
