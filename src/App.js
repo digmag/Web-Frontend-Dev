@@ -8,7 +8,7 @@ import MainKeyMenu from "./components/keys/comp/mainKeyMenu";
 function App() {
   return (
     <div className="App">
-      <MainKeyMenu />
+        <MainMenuAutor />
     </div>
   );
 }

@@ -5,7 +5,7 @@ class LoginButton extends React.Component{
     render(){
         return(
             <div className="loginButton">
-                <button className="buttonMenuAutorize" id="autorButton">Вход</button>
+                <button className="buttonMenuAutorize" id="autorButton" type="submit">Вход</button>
                 <span className="forgetPassword">Забыли пароль?</span>
             </div>
         );
