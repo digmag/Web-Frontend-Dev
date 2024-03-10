@@ -5,7 +5,7 @@ class InputDeanery extends React.Component {
     render() {
         return (
             <div className="inputDeanery">
-                <input className="inputDea" placeholder="Введите название деканата" />
+                <input className="inputDea" id="inputDeaa" placeholder="Введите название деканата" />
             </div>
         );
     }
