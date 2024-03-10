@@ -1,0 +1,122 @@
+.inputBlock {
+    width: 100%;
+    height: 50%;
+    margin-top: 2%;
+}
+
+.addKeyBlock {
+    width: 10%;
+    height: 100%;
+    margin-right: 2vw;
+    margin-bottom: 0vw;
+}
+
+.searchInput {
+    height: 90%;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #949695;
+}
+
+.searchButton {
+    height: 90%;
+    width: 15%;
+    background-color: #188DFE;
+    border: 1px solid #949695;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-left: 2%;
+}
+
+.searchButton:hover {
+    background-color: #0072BC;
+    border: 1px solid #7e807e;
+}
+
+.search {
+    width: 30%;
+    height: 100%;
+    margin-left: 2vw;
+}
+
+.searchText {
+    font-family: Arial;
+    font-size: large;
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.keyFilter {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.addButton {
+    background-color: #188DFE;
+    border: 1px solid #949695;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-left: 1%;
+}
+
+.keyCard {
+    border: 1px solid #949695;
+    border-radius: 10px;
+    width: 45vw;
+    height: 84px;
+    display: flex;
+}
+
+.keyImage {
+    padding-left: 17px;
+    padding-top: 15px;
+    width: 53px;
+    height: 56px;
+
+}
+
+.audienceNumber {
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.keyCard2 {
+    padding-left: 23px;
+    padding-top: 12px;
+}
+
+.statusWorld {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8c9195;
+    padding-right: 7px;
+}
+
+.currentStatus {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.deleteImage {
+    width: 28px;
+    height: 36px;
+    margin-left: auto;
+    padding-right: 17px;
+    padding-top: 24px;
+}
+
+.keyCardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+}
+
+.keyCard:nth-child(odd) {
+    margin-left: 2vw;
+}
