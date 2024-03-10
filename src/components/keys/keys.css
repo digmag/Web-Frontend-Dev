@@ -5,10 +5,11 @@
 }
 
 .addKeyBlock {
-    width: 10%;
+    width: 234px;
     height: 100%;
     margin-right: 2vw;
-    margin-bottom: 0vw;
+    display: flex;
+
 }
 
 .searchInput {
@@ -18,7 +19,7 @@
     border: 1px solid #949695;
 }
 
-.searchButton {
+/* .searchButton {
     height: 90%;
     width: 15%;
     background-color: #188DFE;
@@ -31,7 +32,7 @@
 .searchButton:hover {
     background-color: #0072BC;
     border: 1px solid #7e807e;
-}
+} */
 
 .search {
     width: 30%;
@@ -49,7 +50,7 @@
 
 .keyFilter {
     width: 100vw;
-    height: 8vh;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,19 +58,29 @@
 }
 
 .addButton {
+    height: 50%;
+    width: 60%;
     background-color: #188DFE;
     border: 1px solid #949695;
     color: #ffffff;
     border-radius: 7px;
-    margin-left: 1%;
+    margin-left: 5%;
+    margin-top: 14%;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #0072BC;
+    border: 1px solid #7e807e;
 }
 
 .keyCard {
     border: 1px solid #949695;
     border-radius: 10px;
-    width: 45vw;
+    /*width: 45vw;*/
     height: 84px;
     display: flex;
+    /* margin-left: 2vw; */
 }
 
 .keyImage {
@@ -109,14 +120,46 @@
     margin-left: auto;
     padding-right: 17px;
     padding-top: 24px;
+    cursor: pointer;
 }
 
 .keyCardContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1vw;
+    margin-top: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    @media (max-width: 1070px) {
+        grid-template-columns: 1fr;
+    }
 }
 
+
+
 .keyCard:nth-child(odd) {
-    margin-left: 2vw;
+    /* margin-left: 2vw; */
+}
+
+.imageKey {
+    width: 47px;
+    height: 56px;
+    padding-top: 24px;
+}
+
+.searchButton2 {
+    height: 90%;
+    width: 15%;
+    background-color: #188DFE;
+    border: 1px solid #949695;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.searchButton2:hover {
+    background-color: #0072BC;
+    border: 1px solid #7e807e;
 }

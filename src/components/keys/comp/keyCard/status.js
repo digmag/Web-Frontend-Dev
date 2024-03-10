@@ -10,7 +10,7 @@ class KeyStatus extends React.Component {
                     Статус:
                 </span>
                 <span className="currentStatus">
-                    В деканате
+                    Гальперина Екатерина Ассимовна
                 </span>
             </div>
         );

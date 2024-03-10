@@ -7,7 +7,7 @@ class InputBlock extends React.Component {
         return (
             <div className="inputBlock">
                 <input className="searchInput" placeholder="Введите номер кабинета" />
-                <button className="searchButton"><i className="bi bi-search"></i>   Поиск</button>
+                <button className="searchButton2"><i className="bi bi-search"></i>   Поиск</button>
             </div>
         );
     }
