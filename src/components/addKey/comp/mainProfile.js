@@ -17,14 +17,14 @@ class AddKey extends React.Component {
         };
 
         //пока токена нет
-        let token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4ZjMzMGJkZi0wOWE0LTQ3MzUtYTk5Yi1lZWIwMWY2MjJiZGQiLCJzdWIiOiJrc3U1IiwiaWF0IjoxNzEwMDk1MjczLCJleHAiOjE3MTAwOTg4NzN9.Muq3pfEDDKIVhIL_h2rAOIVoIWH179jXe5t8Hl27Qx8";
+        let token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNDUyNDFkOC1kNDZmLTRjMmMtYjU4MC02M2FjOWRmNTIyMzEiLCJzdWIiOiJrc3U2IiwiaWF0IjoxNzEwMTExMTkzLCJleHAiOjE3MTAxMTQ3OTN9.gpwzw8VjkgOSCR2JZt6n3jgkNOtDlUNZazHUd7OKZak";
         localStorage.setItem("token", token);
         //
 
 
         try {
-            //
-            const idd = '1d8bd2d8-456e-446c-b078-4d92af73c374';
+            //значение переменной берем из url
+            const idd = 'dc2521d6-210a-4ba6-9b6a-08aef7709665';
             const response = fetch(`http://158.160.147.51:8181/keys/${idd}/create`, {
                 method: 'POST',
                 headers: {

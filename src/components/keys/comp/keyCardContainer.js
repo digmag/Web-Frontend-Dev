@@ -17,25 +17,15 @@ class KeyCardContainer extends React.Component {
     }
 
     handleSubmit = () => {
-        //event.preventDefault();
-
-        // const officeName = document.getElementById('inputNameOffice').value;
-        // const officeNumber = document.getElementById('inputNumberOffice').value;
-
-        // const requestBody = {
-        //     "officeName": officeName,
-        //     "officeNumber": officeNumber
-        // };
 
         //пока токена нет
-        let token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNDUyNDFkOC1kNDZmLTRjMmMtYjU4MC02M2FjOWRmNTIyMzEiLCJzdWIiOiJrc3U2IiwiaWF0IjoxNzEwMTExMTkzLCJleHAiOjE3MTAxMTQ3OTN9.gpwzw8VjkgOSCR2JZt6n3jgkNOtDlUNZazHUd7OKZak";
+        let token = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MzM5NWNlOS1kMjhlLTRmNTItYjE0NC1jZmZjMTZmMzQ5NDMiLCJzdWIiOiJrc3U3IiwiaWF0IjoxNzEwMTEzMzg1LCJleHAiOjE3MTAxMTY5ODV9.ah98tEz7mtySItPhIi-IB2NdfKmyaoJ-lfz_LpQV9Fg";
         localStorage.setItem("token", token);
         //
 
-
         try {
             //потом заменить на норм переменную из url
-            const idd = 'dc2521d6-210a-4ba6-9b6a-08aef7709665';
+            const idd = 'c9a65d55-9728-4b42-9671-f0b3afcc1e8e';
             const response = fetch(`http://158.160.147.51:8181/api/office/${idd}`, {
                 method: 'GET',
                 headers: {
@@ -53,11 +43,11 @@ class KeyCardContainer extends React.Component {
 
             }).then(response => {
                 console.log("rrr", response);
-                console.log("!!!!!!!!!!!!", response.officesKeys[0].officeNumber);
-                console.log("!!!!!!!!!!!!", response.officesKeys[0].userViewDTO);
+
                 const officeData = response.officesKeys.map(key => ({
                     officeNumber: key.officeNumber,
-                    userViewDTO: key.userViewDTO
+                    userViewDTO: key.userViewDTO,
+                    keyId: key.keyId
                 }));
 
                 this.setState({ officeData });
@@ -72,12 +62,11 @@ class KeyCardContainer extends React.Component {
     };
 
 
-
     render() {
         return (
             <div className="keyCardContainer">
                 {this.state.officeData.map((data, index) => (
-                    <KeyCard key={index} officeNumber={data.officeNumber} userViewDTO={data.userViewDTO} />
+                    <KeyCard key={index} officeNumber={data.officeNumber} userViewDTO={data.userViewDTO} keyId={data.keyId} />
                 ))}
             </div>
         );
