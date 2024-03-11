@@ -1,0 +1,123 @@
+.searchInputs {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 15vh;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.input {
+    width: 30%;
+    height: 25%;
+    border: 1px solid #949695;
+    border-radius: 10px;
+    font-size: medium;
+    color: #8C9195;
+    margin-top: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: left;
+    margin-top: 9px;
+    font-size: x-large;
+}
+
+.textSort {
+    display: flex;
+    justify-content: left;
+    margin-top: 9px;
+    font-size: x-large;
+}
+
+.findButton {
+    position: absolute;
+    top: 75px;
+    width: 400px;
+    height: 15vh;
+    margin-left: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.findButtonChild {
+    width: 40%;
+    height: 30%;
+    background-color: #188DFE;
+    border: 2px solid #188DFE;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 10%;
+}
+
+.findButtonChild:hover {
+    background-color: #127fe4;
+    border-color: #127fe4;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 15vh;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 0;
+    font-size: x-large;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 15vh;
+    margin-left: 0;
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.li1 {
+    border: 1px solid #949695;
+    border-radius: 10px;
+    color: #8C9195;
+}
+
+.text2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: x-large;
+    margin-left: 10%;
+}
+
+.sort {
+    position: absolute;
+    top: 50px;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 15vh;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.select {
+    width: 30%;
+    height: 25%;
+    border: 1px solid #949695;
+    border-radius: 10px;
+    font-size: medium;
+    color: #8C9195;
+    margin-top: 10px;
+}
