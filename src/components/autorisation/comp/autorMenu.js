@@ -40,6 +40,7 @@ class AutorMenu extends React.Component {
             }).then(response => {
                 console.log("Токен: " + response.token);
                 localStorage.setItem("token", response.token);
+                window.location.pathname = "/applicationMenu";
                 return response.data;
             }).catch(error => {
                 console.log('Ошибка:', error);

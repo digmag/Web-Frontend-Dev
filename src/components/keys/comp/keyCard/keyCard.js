@@ -31,7 +31,7 @@ class KeyCard extends React.Component {
         //
 
         try {
-            const idd = 'c9a65d55-9728-4b42-9671-f0b3afcc1e8e';
+            const idd = localStorage.getItem('idd');
             //const iddKey = 'd48c1766-12df-4c1c-a0a7-3e8cde202c9a';
             const { officeNumber, userViewDTO, keyId } = this.props;
             console.log('wwwwwwwwqq   ', this.props);
@@ -45,6 +45,7 @@ class KeyCard extends React.Component {
 
             }).then(response => {
                 if (response.status === 200) {
+                    window.location.reload();
                     return response.json();
                 } else {
                     console.log(response);

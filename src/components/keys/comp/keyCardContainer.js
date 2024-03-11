@@ -25,7 +25,7 @@ class KeyCardContainer extends React.Component {
 
         try {
             //потом заменить на норм переменную из url
-            const idd = 'c9a65d55-9728-4b42-9671-f0b3afcc1e8e';
+            const idd = localStorage.getItem('idd');
             const response = fetch(`http://158.160.147.51:8181/api/office/${idd}`, {
                 method: 'GET',
                 headers: {

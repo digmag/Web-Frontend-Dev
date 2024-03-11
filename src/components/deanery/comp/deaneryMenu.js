@@ -41,6 +41,8 @@ class DeaneryMenu extends React.Component {
 
             }).then(response => {
                 console.log(response);
+                localStorage.setItem("idd", response.id);
+                window.location.pathname = "/applicationMenu";
                 return response.data;
             }).catch(error => {
                 console.log('Ошибка:', error);
@@ -51,9 +53,14 @@ class DeaneryMenu extends React.Component {
         }
     };
 
+    handleClickCloseDe = () => {
+        window.location.pathname = "/applicationMenu";
+    };
+
     render() {
         return (
             <Form className="autorMenu" onSubmit={this.handleSubmit}>
+                <button className="closeButt" onClick={this.handleClickCloseDe}>✖</button>
                 <Logo />
                 <DeaneryText />
                 <InputDeanery />

@@ -1,4 +1,4 @@
-.mainHeader{
+.mainHeader {
     width: 100vw;
     height: 8vh;
     position: relative;
@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-.logoTiny{
+.logoTiny {
     display: flex;
     align-items: center;
     height: 7vh;
@@ -20,29 +20,30 @@
     left: 4vw;
 }
 
-.imageTSU{
+.imageTSU {
     height: 6vh;
 }
 
-.custom-icon{
+.custom-icon {
     color: #188DFE;
     font-size: xx-large;
     margin-right: 2vw;
+    cursor: pointer;
 }
 
 .hoverIcon:hover * {
     fill: #005db0;
 }
 
-.custom-icon:hover{
+.custom-icon:hover {
     color: #0072BC;
 }
 
-.headerButtons{
+.headerButtons {
     position: absolute;
     right: 0;
 }
 
-.svg:hover{
+.svg:hover {
     fill: black;
 }

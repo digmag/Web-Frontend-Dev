@@ -24,7 +24,7 @@ class AddKey extends React.Component {
 
         try {
             //значение переменной берем из url
-            const idd = 'c9a65d55-9728-4b42-9671-f0b3afcc1e8e';
+            const idd = localStorage.getItem('idd');
             const response = fetch(`http://158.160.147.51:8181/keys/${idd}/create`, {
                 method: 'POST',
                 headers: {
@@ -42,6 +42,7 @@ class AddKey extends React.Component {
 
             }).then(response => {
                 console.log(response);
+                window.location.pathname = "/keys";
                 return response.data;
             }).catch(error => {
                 console.log('Ошибка:', error);

@@ -42,3 +42,12 @@
     background-color: #0072BC;
     border: 1px solid #7e807e;
 }
+
+.closeButt {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    font-size: x-large;
+    cursor: pointer;
+}
