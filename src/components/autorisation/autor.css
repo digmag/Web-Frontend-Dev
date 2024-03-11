@@ -97,6 +97,8 @@
     font-size: medium;
     margin-left: 10%;
     cursor: pointer;
+    text-align: center;
+
 }
 
 .registrButton:hover {

@@ -88,6 +88,40 @@
 }
 
 .applChain{
-    width: 100%;
+    width: 90%;
     height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5vw;
+    margin-top: 2vh;
+
+}
+
+.applItem{
+    width: 40vw;
+    height: 12vh;
+    background-color: #1864ff;
+    border-radius: 7px;
+    border: 1px solid #949695;
+    display: flex;
+    padding: 1vh;
+    color: white;
+    font-size: large;
+}
+
+.rightPart{
+    width: 30%;
+    margin-left: 55%;
+}
+
+.leftPart{
+    width: 70%;
+}
+
+.applAudit{
+
+}
+
+.divAppl{
+    margin-top: 2vh;
 }

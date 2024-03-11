@@ -4,6 +4,9 @@ import ApplicationFilter from "./applicationFilter";
 import ApplChain from "./applChain";
 
 class MainApplicationMenu extends React.Component{
+
+
+
     render(){
         return(
             <div>
