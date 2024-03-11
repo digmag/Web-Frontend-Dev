@@ -1,5 +1,4 @@
 import React from "react";
-import * as RB from "react-bootstrap";
 import "../autor.css"
 import Logo from "./logo";
 import ToLoginText from "./toLoginText";
