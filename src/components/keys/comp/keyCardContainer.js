@@ -46,9 +46,10 @@ class KeyCardContainer extends React.Component {
 
                 const officeData = response.officesKeys.map(key => ({
                     officeNumber: key.officeNumber,
-                    userViewDTO: key.userViewDTO,
+                    userViewDTO: key.userViewDTO ? key.userViewDTO.fullname || "в деканате" : "в деканате",
                     keyId: key.keyId
                 }));
+                console.log("eeeeeeeey", officeData.userViewDTO);
 
                 this.setState({ officeData });
                 return response.data;
