@@ -90,10 +90,11 @@
 .applChain{
     width: 90%;
     height: 75vh;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 5vw;
     margin-top: 2vh;
+
 }
 
 .applItem{
@@ -103,7 +104,6 @@
     border-radius: 7px;
     border: 1px solid #949695;
     display: flex;
-    justify-content: space-between;
     padding: 1vh;
     color: white;
     font-size: large;
